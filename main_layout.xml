@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面是一个抽奖游戏，点击以下两个按钮中的任意一个进行抽奖"/>
+<Button
+    android:id="@+id/button_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="点这！！！"/>
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这儿有奖！！！"/>
+</LinearLayout>
